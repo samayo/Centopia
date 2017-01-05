@@ -1,5 +1,3 @@
-CENTOPIA 
-======== 
 
 A guide to download, install and configure a vboxs running CentOs7. 
 
@@ -16,13 +14,17 @@ Download CentOS-7 minimal from [here][centos_minimal_iso]
 	 from 
 
 - Allow vbox networking 
+```bash
   $ vi /etc/sysconfig/network-scripts/ifcfg-enp0s3 
   	 @onboot=no => @onboot=yes
+```
   
 - open access http and ssh port
- vBox settings > network > nat > port forwarding & add ports:                           
+ vBox settings > network > nat > port forwarding & add ports:    
+```bash 
 	 http  tcp   127.0.0.1 80 10.0.2.15 80
 	 ssh   tcp   127.0.0.1 22 10.0.2.15 22
+```
 
 reboot virtualbox
 
