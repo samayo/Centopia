@@ -20,9 +20,11 @@ Download CentOS-7 minimal from [here][centos_minimal_iso]
 ```
   
 - open access http and ssh port
- vBox settings > network > nat > port forwarding & add ports:                           
+ vBox settings > network > nat > port forwarding & add ports:    
+```bash 
 	 http  tcp   127.0.0.1 80 10.0.2.15 80
 	 ssh   tcp   127.0.0.1 22 10.0.2.15 22
+```
 
 reboot virtualbox
 
