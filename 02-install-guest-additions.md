@@ -1,4 +1,4 @@
-Install Guest Additions on CentOS 7
+Install Guest Additions on CentOS 7.3
 ===================================
 
 ### update yum and install some components. 
