@@ -20,3 +20,4 @@ $ cd node-v0.10.30
 $ ./configure --prefix=/usr/local
 $ make 
 $ make install 
+```
