@@ -20,4 +20,7 @@ $ cd node-v0.10.30
 $ ./configure --prefix=/usr/local
 $ make 
 $ make install 
+
+# check version to make sure it was installed
+$ node -v // v.0.10.30
 ```
