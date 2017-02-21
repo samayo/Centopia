@@ -1,4 +1,4 @@
-Install Node.js 0.10.30
+Install NodeJS v4.1.0
 ----
 
 #### update yum & install required libraries
