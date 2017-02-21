@@ -10,9 +10,9 @@ $ yum install sudo gcc-c++
 #### Download and unpack the source
 ```
 $ cd /usr/local/src
-$ wget http://nodejs.org/dist/v0.10.30/node-v0.10.30.tar.gz
-$ tar zxf node-v0.10.30.tar.gz
-$ cd node-v0.10.30
+$ wget http://nodejs.org/dist/v4.1.0/node-v4.1.0.tar.gz
+$ tar zxf node-v4.1.0.tar.gz
+$ cd node-v4.1.0
 ```
 
 #### Configure and install
@@ -22,5 +22,5 @@ $ make
 $ make install 
 
 # check version to make sure it was installed
-$ node -v // v.0.10.30
+$ node -v  
 ```
