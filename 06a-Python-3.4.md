@@ -34,5 +34,9 @@ cp python /usr/bin/python3
 ```
 
 
-
+### Install PIP
+```
+yum install python34-setuptools
+sudo easy_install-3.4 pip
+```
 
