@@ -36,6 +36,9 @@ cp python /usr/bin/python3
 
 ### Install PIP
 ```
+#wget https://pypi.python.org/packages/source/s/setuptools/setuptools-2.0.2.tar.gz
+#tar -xvzf setuptools-2.0.2.tar.gz
+#cd setuptools-2.0.2
 yum install python34-setuptools
 sudo easy_install-3.4 pip
 ```
