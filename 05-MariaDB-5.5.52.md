@@ -9,5 +9,6 @@ $ sudo systemctl enable mariadb.service
 $ sudo systemctl restart mariadb.service
 ```
 #### configure
+```
 $ sudo /usr/bin/mysql_secure_installation
 ```
