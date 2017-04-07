@@ -58,13 +58,3 @@ $ firewall-cmd --zone=public --add-port=http/tcp --permanent
 $ service php-fpm start    
 $ service php-fpm restart
 ````
-
-#### THE centopia WAY 
-Type these commands in your terminal to get exactly the same result as above but with a lot less time. 
-
-````bash
-$ wget -qO ~/centopia  http://goo.gl/pXvjVl
-$ cp ~/centopia /usr/bin/centopia
-$ chmod ug+x /usr/bin/centopia
-$ bash centopia install php-fpm-5.6.1
-````
