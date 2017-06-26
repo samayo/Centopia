@@ -3,6 +3,7 @@ Install PHP7 via RPM
 
 #### update yum & install required libraries
 ```bash
+$ yum -y update
 $ yum install -y autoconf gcc bison
 ```
 
