@@ -23,7 +23,7 @@ If your virtualbox is 5.1.10 then replace {VBOX_VERSION} with that number
 $ cd /usr/local/src
 # Don't forget to replace {VBOX_VERSION} with your virtualbox version
 $ wget http://download.virtualbox.org/virtualbox/{VBOX_VERSION}/VBoxGuestAdditions_{VBOX_VERSION}.iso
-$ sudo mount -o loop VBoxGuestAdditions_5.0.10.iso /mnt
+$ sudo mount -o loop VBoxGuestAdditions_{VBOX_VERSION}.iso /mnt
 $ cd /mnt
 $ sudo ./VBoxLinuxAdditions.run 
 ```
