@@ -27,6 +27,7 @@ $ sudo mount -o loop VBoxGuestAdditions_{VBOX_VERSION}.iso /mnt
 $ cd /mnt
 $ sudo ./VBoxLinuxAdditions.run 
 ```
+> Note: If the above command does not work (below command doesn't work: mount -t boxsf ...) reboot machine and start over with this command i.e. :  cd /usr/loca/src 
 
 ### Sharing a windows folder in VB. 
 Create any folder in your windows ex: C:/projects
