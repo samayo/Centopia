@@ -18,11 +18,3 @@ Install PHP with the extensions you need. check out https://webtatic.com/package
 ```bash
 $ yum install --enablerepo=webtatic-testing php71w php71w-opcache php71w-fpm php71w-cli php71w-gd php71w-xml php71w-opcache php71w-pgsql php71w-pdo php71w-pear php71w-mysqlnd php71w-phpdbg php71w-intl php71w-mbstring
 ```
-
-#### Configure Nginx
-If you are using Nginx as your server, the open www-conf and change user/group from 'apache' to 'nginx'
-```
-$ vi /etc/php-fpm.d/www.conf
-    user = nginx
-    group = nginx
-```
